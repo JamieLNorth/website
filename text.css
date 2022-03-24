@@ -1,0 +1,85 @@
+
+#MyProjects {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#MyProjects td, #MyProjects th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#MyProjects tr:nth-child(even){background-color: #f2f2f2;}
+
+#MyProjects tr:hover {background-color: #ddd;}
+
+#MyProjects th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:26px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:20px;
+}
+
+.footer-basic .social > a {
+  font-size:55px;
+  line-height:55px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:0px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:1;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.res {
+	 width: 800px; 
+	 margin-left: auto;
+	 margin-right: auto;
+}
+
+.abstract {
+	text-align: center;
+}
